@@ -23,7 +23,7 @@
   <body>
     <div class="container" style="padding-top:65px">
 	 <div class="jumbotron" style="background-color:rgba(0,0,0,0); text-align: center">
-	    <h1><span id="servername">Domain/server</span></h1>Looking for a specific module or page? Make sure you enter the whole URL. <br>
+	    <h1><a style="text-decoration: none;color:orange" class="domainname" href="">Domain</a><span id="servername">/server</span></h1>Looking for a specific module or page? Make sure you enter the whole URL. <br>
 		<p class='text-muted'>Server at <span id="serverlocation">sub.domain.com</span> - <span style='color:green'><b>systems operational</b></span></p>
 		<small class="text-muted">Contact - <a id="servercontact" href="http://google.com"></a></small>
 		<br><br>
@@ -41,9 +41,9 @@
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
     <script>
     	$('#serverlocation').html("spinel.cydrobolt.com");
-    	$('#servername').html("Cydrobolt/spinel");
-    	$('#servercontact').attr('href', "http://cydrobolt.com");
-    	$('#servercontact').html("http://cydrobolt.com");
+    	$('#servername').html("spinel");
+    	$('#domainname').attr('href', "http://cydrobolt.com");
+    	$('#domainname').html("Cydrobolt");
     </script>
   </body>
 </html>

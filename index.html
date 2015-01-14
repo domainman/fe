@@ -25,9 +25,9 @@
     <div class="container" style="padding-top:65px">
 	 <div class="jumbotron" style="background-color:rgba(0,0,0,0); text-align: center">
 	    <h1><span id="servername">Domain/server</span></h1>Looking for a specific module or page? Make sure you enter the whole URL. <br>
-		<p class='text-muted'>Server at <span id="serverloc">sub.domain.com</span> - <span style='color:green'><b>systems operational</b></span></p>
+		<p class='text-muted'>Server at <span id="serverlocation">sub.domain.com</span> - <span style='color:green'><b>systems operational</b></span></p>
+		<sub class="text-muted">Contact - <a href="http://google.com"></a></sub>
 		<br><br>
-	
 	</div>
     </div>
     <style>
@@ -41,8 +41,10 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
     <script>
-    	$('#serverloc').html("spinel.cydrobolt.com");
+    	$('#serverlocation').html("spinel.cydrobolt.com");
     	$('#servername').html("Cydrobolt/spinel");
+    	$('#servercontact').attr('href', "http://cydrobolt.com");
+    	$('#servercontact').html("http://cydrobolt.com");
     </script>
   </body>
 </html>
